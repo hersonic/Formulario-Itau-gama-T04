@@ -1,0 +1,665 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: hsla(60, 100%, 50%, 0.384);
+}
+
+.bloco_geral{
+ width:90%;
+ padding:20px 0;
+ display:flex;
+ position:relative;
+ margin:auto;
+}
+
+.texto1{
+background-color:#FF7200;
+background-image: linear-gradient(45deg, #FF7200, #e57011);
+width:30%;
+height:85vh;
+margin-left:70px;
+margin-top:20px;
+margin-bottom:20px;
+display:inline-block;
+position:relative;
+border-radius: 20px 0 0 20px;
+box-shadow: black 10px 8px;
+}
+
+.formulario{
+    background-image: linear-gradient(to bottom right, #242934, #323b4a);
+    width:50%;
+    height:85vh;
+    margin-right:70px;
+    margin-top:20px;
+    margin-bottom:20px;
+    display:inline-block;
+    padding-left:10px;
+    position:relative;
+    border-radius:0 20px 20px 0;
+    box-shadow: black 10px 8px;
+}
+
+/* texto 1*/
+
+.bemvindo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    color: white;
+    font-weight: black;
+    text-transform: uppercase;
+    line-height: 0.9em;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #f3dc56;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 0;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.itau {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 160px;
+    padding-left: 20px;
+}
+
+.gama-academy {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 70px;
+    padding-left: 80px;
+}
+
+/* formulario */
+
+.form {
+    margin: 20px 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+.nomepessoa {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+
+.nomepessoa label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.nomepessoa label:after {
+    content: "*";
+    margin-left: 5px;
+    color: #f00;
+}
+
+.nomepessoa input {
+    background: none;
+    padding: 0.5em;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color: #a3a3a3;
+}
+
+.telcel {
+    display: inline-flex;
+    margin: 0;
+    text-align: justify;
+}
+
+.telcelular {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 50px;
+}
+
+.telcelular label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.telcelular label:after {
+    content: "*";
+    margin-left: 5px;
+    color: #f00;
+}
+
+.telcelular input {
+    background: none;
+    padding: 0.5em;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color: #a3a3a3;
+}
+
+.telfixo {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        margin-left: 50px;
+}
+
+
+.telfixo label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.telfixo input {
+    background: none;
+    padding: 0.56em;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color: #a3a3a3;
+}
+
+.documentos {
+    display: inline-flex;
+    margin: 0;
+    text-align: justify;
+}
+
+.cpfpessoa {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.cpfpessoa label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.cpfpessoa label:after {
+    content: "*";
+    margin-left: 5px;
+    color: #f00;
+}
+
+.cpfpessoa input {
+    background: none;
+    padding: 0.56em;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color: #a3a3a3;
+}
+
+.generoambos {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.generoambos label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+    background: none;
+}
+
+.generoambos option {
+    background-color: #242934;
+}
+
+.generoambos select {
+    width: 100%;
+}
+
+.rgpessoa {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 2px;
+    margin-left: 55px;
+}
+
+.rgpessoa label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.rgpessoa input {
+    background: none;
+    padding: 0.56em;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color: #a3a3a3;
+}
+
+/*Endereço da casa ou predio*/
+
+.casa {
+    display: inline-flex;
+}
+
+.enderecopessoa {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 2px;
+    margin-left: 50px;
+}
+
+.enderecopessoa label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.enderecopessoa label:after {
+    content: "*";
+    margin-left: 5px;
+    color: #f00;
+}
+
+.enderecopessoa input {
+    background: none;
+    padding: 0.5em;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color: #a3a3a3;
+}
+
+.numerodacasa {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 2px;
+    margin-left: 50px;
+}
+
+.numerodacasa label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.numerodacasa label:after {
+    content: "*";
+    margin-left: 5px;
+    color: #f00;
+}
+
+.numerodacasa input {
+    background: none;
+    padding: 0.5em;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color: #a3a3a3;
+}
+
+.bairro_lugar {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.bairro_lugar label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.bairro_lugar input {
+  background: none;
+  padding: 0.5em;
+  border: none;
+  border-bottom: 2px solid #FFF;
+  display: block;
+  color: #a3a3a3;
+}
+
+.cepdoendereco {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.cepdoendereco label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.cepdoendereco input {
+    background: none;
+    padding: 0.5em;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color: #a3a3a3;
+}
+
+.mapacidadepaisestado {
+    display: inline-flex;
+    text-align: justify;
+}
+
+.campocidade {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.campocidade label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campocidade input {
+    background: none;
+    padding: 0.5em;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color: #a3a3a3;
+}
+
+.campoestado {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 2px;
+    margin-left: 60px;
+}
+
+.campoestado label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campoestado option {
+    background-color: #242934;
+}
+
+.campoestado input {
+    background: none;
+    padding: 0.5em;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color: #a3a3a3;
+}
+
+.campopais {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.campopais label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campopais option {
+    background-color: #242934;
+}
+
+.campopais input {
+    background: none;
+    padding: 0.5em;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color: #a3a3a3;
+}
+
+select {
+    background: none;
+    padding: 0.4em;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color: #fff;
+}
+
+
+label:focus {
+    outline: none;
+}
+
+input:focus {
+    border: none;
+    border-bottom: 2px solid #FF7200;
+    outline: none;
+    box-shadow: 0 0 0 0;
+}
+
+.btn-submit {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background: #FF7200;
+    border-radius: 10px;
+    border-color: #FF7200;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 5px 40px;
+    margin-left: auto;
+    margin-top: 5px;
+    cursor: pointer;
+    display: block;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.btn-submit:hover {
+    background: #F79C60;
+    border-color: #F79C60;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.btn-submit a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold
+}
+
+.error-validation {
+    color: #FF1A1A;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template {
+    display: none;
+}
+
+@media(max-width:858px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url('../imagens/bg.png');
+        background-repeat: repeat;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+    }
+
+    .bloco_geral {
+        display: block;
+
+    }
+
+    .texto1 {
+        display: block;
+        background-color: #FF7200;
+        background-image: linear-gradient(45deg, #FF7200, #e57011);
+        background-image: url(../imagens/bloco1.png);
+        width: 80%;
+        height: 85vh;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        margin-bottom: 0;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .formulario {
+        display: block;
+        background-image: linear-gradient(to bottom right, #242934, #323b4a);
+        width: 80%;
+        height: 110vh;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        padding: 10px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .telcel {
+        display: block;
+        margin: 0;
+    }
+
+    .telfixo {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 2px;
+        margin-right: 10px;
+    }
+
+    .telfixo label {
+        margin-bottom: 0.2em;
+        color: #fff;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .telfixo input {
+        background: none;
+        padding: 0.5em;
+        border: none;
+        border-bottom: 2px solid #FFF;
+        display: block;
+        color: #a3a3a3;
+    }
+
+    .telcelular {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 2px;
+        margin-right: 10px;
+    }
+
+    .telcelular label {
+        margin-bottom: 0.2em;
+        color: #fff;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .telcelular label:after {
+        content: "*";
+        margin-left: 5px;
+        color: #f00;
+
+    }
+
+    .telcel input {
+        background-color: none;
+        padding: 0.5em;
+        border: none;
+        border-bottom: 2px solid #FFF;
+        display: block;
+        color: #a3a3a3;
+    }
+
+    .bairro_lugar {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 2px;
+        margin-right: 0;
+    }
+
+    .bairro_lugar label {
+        margin-bottom: 0.2em;
+        color: #fff;
+        display: block;
+    }
+
+    .bairro_lugar input {
+        background-color: none;
+        padding: 0.5em;
+        border: none;
+        border-bottom: 2px solid #FFF;
+        display: block;
+        color: #a3a3a3;
+    }
+
+    .itau {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 140px;
+    }
+
+    .gama-academy {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 70px;
+        padding-left: 80px;
+    }
+
+}
+
+
