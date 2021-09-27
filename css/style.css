@@ -521,9 +521,8 @@ input:focus {
     body {
         margin: 0;
         padding: 0;
-        width: 100vw;
-        height: 100vh;
-        background-image: url('../imagens/bg.png');
+        width: 60%;
+        height: 40%;
         background-repeat: repeat;
         font-family: 'Poppins', sans-serif;
         border: none;
@@ -539,8 +538,8 @@ input:focus {
         background-color: #FF7200;
         background-image: linear-gradient(45deg, #FF7200, #e57011);
         background-image: url(../imagens/bloco1.png);
-        width: 80%;
-        height: 85vh;
+        width: 100%;
+        height: 100%;
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
@@ -549,10 +548,10 @@ input:focus {
     }
 
     .formulario {
-        display: block;
+        display: inline-flex;
         background-image: linear-gradient(to bottom right, #242934, #323b4a);
-        width: 80%;
-        height: 110vh;
+        width: 100%;
+        height: 100%;
         margin-right: auto;
         margin-left: auto;
         margin-top: 0;
@@ -561,23 +560,23 @@ input:focus {
     }
 
     .telcel {
-        display: block;
-        margin: 0;
+        display: flexbox;
+        margin: auto;
     }
 
     .telfixo {
         font-family: 'Poppins', sans-serif;
         font-size: 14px;
-        width: 100%;
-        margin-bottom: 2px;
-        margin-right: 10px;
+        width: auto;
+        margin-bottom: auto;
+        margin-right: auto;
     }
 
     .telfixo label {
         margin-bottom: 0.2em;
         color: #fff;
-        display: block;
-        margin-top: 10px;
+        display: flexbox;
+        margin-top: auto;
     }
 
     .telfixo input {
@@ -585,28 +584,28 @@ input:focus {
         padding: 0.5em;
         border: none;
         border-bottom: 2px solid #FFF;
-        display: block;
+        display: flexbox;
         color: #a3a3a3;
     }
 
     .telcelular {
         font-family: 'Poppins', sans-serif;
         font-size: 14px;
-        width: 100%;
-        margin-bottom: 2px;
-        margin-right: 10px;
+        width: auto;
+        margin-bottom: auto;
+        margin-right: auto;
     }
 
     .telcelular label {
         margin-bottom: 0.2em;
         color: #fff;
-        display: block;
-        margin-top: 10px;
+        display: flexbox;
+        margin-top: auto;
     }
 
     .telcelular label:after {
         content: "*";
-        margin-left: 5px;
+        margin-left: auto;
         color: #f00;
 
     }
@@ -616,7 +615,7 @@ input:focus {
         padding: 0.5em;
         border: none;
         border-bottom: 2px solid #FFF;
-        display: block;
+        display: flexbox;
         color: #a3a3a3;
     }
 
@@ -624,14 +623,14 @@ input:focus {
         font-family: 'Poppins', sans-serif;
         font-size: 14px;
         width: 100%;
-        margin-bottom: 2px;
-        margin-right: 0;
+        margin-bottom: auto;
+        margin-right: auto;
     }
 
     .bairro_lugar label {
         margin-bottom: 0.2em;
         color: #fff;
-        display: block;
+        display: flex;
     }
 
     .bairro_lugar input {
@@ -639,25 +638,26 @@ input:focus {
         padding: 0.5em;
         border: none;
         border-bottom: 2px solid #FFF;
-        display: block;
+        display: flex;
         color: #a3a3a3;
     }
 
     .itau {
-        width: 20%;
-        display: flex;
+        width: 50px;
+        display: inline-block;
         flex-direction: column;
         position: relative;
-        top: 140px;
+        top: auto;
     }
 
     .gama-academy {
-        width: 80%;
-        display: flex;
+        width: 5px;
+        display: inline-block;
         flex-direction: column;
         position: relative;
-        top: 70px;
-        padding-left: 80px;
+        top: auto;
+        padding: 40px;
+
     }
 
 }
